@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: rgb(6, 85, 146);
+}
+
+.head1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 30px;
+    gap: 30px;
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    resize: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    transition: background 0.3s;
+    margin-left: 10px;
+    margin-bottom: -22px;
+}
+
+.add-note {
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.add-note:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.closeBtn {
+    border: none;
+    /* outline: none; */
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.closeBtn:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
